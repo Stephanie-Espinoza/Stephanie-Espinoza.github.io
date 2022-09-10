@@ -1,0 +1,62 @@
+<html>
+
+<head> 
+    <scrip></scrip>
+    <!-- style and CSS are synonyms -->
+   <style>
+        /* inside the tags is CSS code, not HTML code */
+        h1{
+            color:blue;
+            margin:0px;
+            padding:10px;
+            text-align:center;
+        }
+
+        .bestsellers{
+            background: yellow; 
+        }
+        .favorites{
+            text-decoration:underline;
+        }
+        .menu{
+            background:beige
+        }
+        body{
+            margin:0px
+        }
+        /* hpver is called a pseudoclass */
+        li:hover{
+            background:red
+        }
+        li{
+            background:gray;
+            display: inline-block;
+            width: 20%;
+        }
+        /* .selected thing could be named anything else like .idk .somethingsomething */
+    </style>
+</head>
+
+<body>
+    <!-- h is for header-->
+    <!-- html goes inside the body tag and it is about content not about styling-->
+    <div class = menu>
+        <h1> My Books Webpage </h1> 
+        <!-- ol = order list-->
+        <ol>
+            <!-- li = list item-->
+            <a href = to-kill-a-mockingbird> <li class="bestsellers favorites"> TKAM <!--To Kill a Mockingbird--></li> </a>
+            <li class="favorites"> C&P <!--Crime and Punishment--></li>
+            <li class="bestsellers favorites"> HP <!--Harry Potter--> </li>
+            <li class="favorites"> WTRFG <!--Where the Red Fern Grows--> </li>
+            <!-- Use ul if you want bullet points-->
+        </ol>
+    </div>
+    </body>
+    <p> This is a paragraph about books.</p>
+    <!-- 2 special tags: div=> block, span=>inline-->
+    <p class="bestsellers"> This is a paragraph about the best selling books <span> class="bestsellers" </span> </p>
+    <!-- block elements (like paragraph) vs inline elements (goes inside a paragraph)-->
+</body>
+
+</html>

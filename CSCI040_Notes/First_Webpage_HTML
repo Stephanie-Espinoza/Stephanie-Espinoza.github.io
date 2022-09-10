@@ -1,0 +1,69 @@
+<html lang="en">
+    <head>
+        <title> This is an example webpage. </title>
+        <style>
+            /* this is a comment in a style tag */
+            /* CSS = cascading Style Sheets*/
+            /* the colors are called "syntax highlighting" */
+            b {color:brown;font-size: 15pt;}
+            p {color:black}
+
+            /* CSS - Cascading Style Sheets */
+        </style>
+        <sctipt>
+            /* slash star comments */
+            // this is also a valid comment 
+        </sctipt>
+    </head>
+
+
+    <body>
+            
+        <p>
+        <b>Hello</b> <i>World</i>.
+        </p>
+
+        <p>
+            Goodbye world.
+        </p>
+
+        <p>
+        block element -> p tag, inline element -> b, i tags
+
+        element/tag interchangable 
+        </p>
+
+        <p>
+        This is an example of a link to <a href="https://github.com/mikeizbicki/cmc-csci040">google.com</a>
+        </p>
+
+        <p>
+        <img width="400 px" title="pandaw are cute!!!" alt="this is a panda" src="https://th.bing.com/th/id/OIP.ze9m8u69YF3eyxGVP3DADAHaE7?w=301&h=200&c=7&r=0&o=5&dpr=2&pid=1.7">
+        </p>
+
+        <img width="40%" src="https://th.bing.com/th/id/OIP.ULiqpxAoCOAsy-QElhHEAgHaE8?w=300&h=200&c=7&r=0&o=5&dpr=2&pid=1.7">
+
+
+        <p>
+            HTML - whitespace insensitive language 
+        </p>
+        <p>
+            whitespace = space, newliness
+        </p>
+        <p>
+            Whenever you have an opening tag &lt;p&gt; without a closing tag &lt;/p&gt; : undefined behavior 
+        </p>
+        <p>
+            HTML compliant webpages have no undefined behavior 
+        </p>
+        <p>
+            Escaping the angle bracket replace all of "angle brackets" with &lt; or &gt;
+        </p>
+
+
+    </body>
+
+
+<!--bang text doesn't appear it is called a comment-->
+
+</html>
