@@ -6,8 +6,6 @@
         </style>
     </head>
     <body>
-        <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="08IoTx86"></script>
-        <div class="fb-like" data-href="file:///Users/stephanie/Documents/GitHub/Stephanie-Espinoza.github.io/Urban-Heat-Island-Effect_HTML" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+       Hello World 
     </body>
 </html>
