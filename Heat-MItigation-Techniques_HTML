@@ -1,0 +1,124 @@
+<html lang="en">
+    <head>
+        <title> Heat Mitigation Techniques </title>
+        <meta name="description" content="What are good ways to mitigate the impacts of the Urban Heat Island Effect? There are many green infrastructure techniques being implemented to reduce its effects.">
+        <link href="IZ.css" rel="stylesheet" type="text/css">
+        <style>
+            .tsh{
+                font-weight: bolder;
+                color:rgb(186, 109, 20);
+            }
+            div{
+                margin-right: 40%;
+            }
+            div#Roof{
+                background-color: rgb(188, 241, 224);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            div#Shade{
+                background-color: rgb(150, 249, 249);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            div#Water{
+                background-color: rgb(72, 255, 200);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            div#Walls{
+                background-color: rgb(196, 243, 243);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="ThmyBB56"></script>
+        <h1> Heat Mitigation Techniques </h1>
+        <div class="fb-like" data-href="https://github.com/Stephanie-Espinoza/Stephanie-Espinoza.github.io/blob/main/Heat-MItigation-Techniques_HTML" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+        <P>
+            <img width="25%" title="Green Roof" alt="This is a picture of a greenroof" src="https://www.urbanscape-architecture.com/wp-content/uploads/2018/03/Green_Roof_-_small.jpg">
+        </P>
+        <p class="tsh">
+            Green Infrastructure
+        </p>
+        <ul class="bf">
+            <li> <span style=font-weight:bold;color:green;>Green roof</span> and <span style=font-weight:bold;color:green;>tree canopies</span> to reduce temperature of roof surface and surrounding air </li>
+            <li><span style=font-weight:bold;color:green;>Sun angle calculations shading</span> to maximize shading areas</li>
+            <li><span style=font-weight:bold;color:green;>Water features</span> to reduce temperature of ground surfaces </li>
+            <li><span style=font-weight:bold;color:green;>Green Walls</span> to help keep buildings cool during high temperatures</li>
+        </ul>
+        <div id="Roof">
+            <p class="tsh">
+                Green Roofs
+            </p>
+            <p>
+                Green roofs offer added benefits such as reducing and filtering stormwater runoff; absorbing pollutants and carbon dioxide; providing natural habitat; and in the case of intensive green roofs, serving as recreational green space. 
+            </p>
+            <p>
+            <a href="https://www.epa.gov/heatislands/using-green-roofs-reduce-heat-islands">Source</a>
+            </p>
+        </div>
+        <div id="Shade">
+            <p class="tsh">
+                Sun Angle Calculations Shading
+            </p>
+            <p>
+                Well-designed sun control and shading devices can dramatically reduce building peak heat gain and cooling requirements and improve the natural lighting quality of building interiors. Depending on the amount and location of fenestration, reductions in annual cooling energy consumption of 5% to 15% have been reported.
+            </p>
+            <p>
+                <a href="https://www.wbdg.org/resources/sun-control-and-shading-devices">Source</a>
+            </p>
+        </div>
+        <div id="Water">
+            <p class="tsh">
+                Water Features
+            </p>
+            <p>
+                Pavement watering has been studied since the 1990's and is currently considered a promising tool for the urban heat island reduction and climate change adaptation.
+            </p>
+            <p>
+                <a href="https://hal.archives-ouvertes.fr/hal-01016108/document">Source</a>
+            </p>
+        </div>
+        <div id="Walls">
+           <p class="tsh">
+                Green Walls
+            </p>
+            <p>
+                Green walls can help decrease the speed of climate change in a number of ways. Primarily, they reduce the energy consumption of buildings by creating microclimates within the urban environment that help to regulate temperatures.
+            </p>
+            <p>
+                <a href="https://earth.org/data_visualization/green-walls-in-an-increasingly-urban-world/">Source</a>
+            </p>
+        </div>
+
+        <p class=subheading> 
+            <b>Associated Pages</b>
+        </p>
+        <div id="closing">
+            The following links lead back to the main page and other pages discussing subtopics of the Urban Heat Island Effect topic.
+        </div>
+        <div class="ap">
+            <p>
+                <a href="index.html"> Main Page </a>
+            </p>
+            <p>
+                <a href="Urban-Heat-Island-Effect_HTML"> Urban Heat Island Effect </a>
+            </p>
+            <p>
+                <a href="Environmental-Impact-Of-Trees_HTML"> Environmental Impact of Trees </a>
+            </p>
+        </div>
+    </body>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8Q8RQ6LSD"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y8Q8RQ6LSD');
+    </script>
+
+</html>

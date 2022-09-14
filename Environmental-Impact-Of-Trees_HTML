@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width">
         <title>Table template</title>
         <link href="minimal-table.css" rel="stylesheet" type="text/css">
+        <link href="IZ.css" rel="stylesheet" type="text/css">
         <style>
             html {
             font-family: sans-serif;
@@ -38,16 +39,29 @@
             tr:nth-child(odd) td {
             background-color: rgb(245,245,245);
             }
-
             caption {
             padding: 10px;
             }
-            h1, .subheading{
-                color: green;
-                font-size: 28px;
+            div{
+                color:black;
             }
-            head, body {
-                font-family: initial;
+            .table_heading{
+                font-weight: bolder;
+            }
+            #table-subtext{
+                background-color: rgb(228, 228, 228);
+                margin-right: 92%;
+            }
+            div#meit{
+                background-color: rgb(233, 249, 220);
+                margin-right:30%;
+            }
+            div#gd{
+                background-color: azure;
+                margin-right:30%;
+            }
+            div#etf{
+                color:rgb(116, 140, 35);
             }
         </style>
     </head>
@@ -56,42 +70,73 @@
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="LUp6ake5"></script>
         <h1> Environmental Impact of Trees </h1>
         <div class="fb-like" data-href="https://github.com/Stephanie-Espinoza/Stephanie-Espinoza.github.io/blob/main/Environmental-Impact-Of-Trees_HTML" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+        <div id="gd">
+            <p>
+                The following information was collected using the <a href="https://mytree.itreetools.org/#/"> USDA Forest Service's iTree MyTree tool</a>. 
+            </p>
+            <p>
+                For more information on a specific geographic area or on the impact of different types of trees please visit the USDA Forest Service site.
+            </p>
+            <p>
+                The information presented on this page is on the impact of two specific species, Live Oak and Chinkapin Oak. 
+            </p>
+        </div>
         <p>
             <img width="25%" title="Street with Trees" alt="This is a picture of a street with trees." src="https://opendatastoriesottawa.ca/content/images/2018/01/title_post.jpg">
         </p>
         <p class="subheading">
             <b>Measured Environmental Impact</b>
         </p>
+        <div id="meit">
+            <p>
+                The measure of carbon dioxide sequestration by <span style=font-weight:bold;color:rgb(157,107,15)>Live Oak Trees</span> and <span style=font-weight:bold;color:rgb(157,107,15)>Chinkapin Oak</span> Trees is presented in the table below.
+            </p>
+            <p>
+                Over many years, even one tree can have a very significant impact in reducing the Urban Heat Island Effect through carbon sequestration.
+            </p>
+        </div>
         <table>
-            <tr>
+            <tr class="table_heading">
                 <td> Type of Tree </td>
                 <td> Impact Over 1 Year </td>
                 <td> Impact Over 20 Years </td>
             </tr>
             <tr>
-                <td>  </td>
-                <td>  </td>
-                <td>  </td>
+                <td> Live Oak  </td>
+                <td> CO2 equivalent of carbon 232.93 lbs </td>
+                <td> CO2 equivalent of carbon 8,115.71 lbs  </td>
             </tr>
             <tr>
-                <td>  </td>
-                <td>  </td>
-                <td>  </td>
+                <td> Chinkapin Oak </td>
+                <td> CO2 equivalent of carbon 109.73 lbs </td>
+                <td> CO2 equivalent of carbon 4,021.90 lbs </td>
             </tr>
         </table>
+        <div id="table-subtext">
+            Trees are great!
+        </div>
         <p class=subheading> 
             <b>Associated Pages</b>
         </p>
+        <div id="closing">
+            The following links lead back to the main page and other pages discussing subtopics of the Urban Heat Island Effect topic.
+        </div>
+        <div id="etf">
         <p>
-            <a href="index.html"> Main Page </a>
+            Look around and learn more:)
         </p>
-        <p>
-            <a href="Urban-Heat-Island-Effect_HTML"> Urban Heat Island Effect </a>
-        </p>
-        <p>
-            <a href=Heat-Mitigation-Techniques_HTML> Heat Mitigation Techniques </a>
-        </p>
-
+        </div>
+        <div class="ap">
+            <p>
+                <a href="index.html"> Main Page </a>
+            </p>
+            <p>
+                <a href="Urban-Heat-Island-Effect_HTML"> Urban Heat Island Effect </a>
+            </p>
+            <p>
+                <a href=Heat-Mitigation-Techniques_HTML> Heat Mitigation Techniques </a>
+            </p>
+        </div>
     </body>
 
 

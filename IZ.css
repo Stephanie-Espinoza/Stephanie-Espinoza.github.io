@@ -1,0 +1,28 @@
+h1{
+    color: rgb(1, 91, 1);
+}
+.subheading{
+    color: green;
+    font-size: 28px;
+}
+head, body {
+    font-family: initial;
+}
+a{
+    color:blue;
+}
+#closing{
+    font-weight: bold;
+}
+li:hover{
+    background-color: rgb(190, 230, 255);
+}
+@media screen and (max-width: 415px) {
+    img{
+      width: 100%;
+    }
+}
+.ap{
+    background-color: rgb(253, 243, 231);
+    margin-right:83%;
+}
